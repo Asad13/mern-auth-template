@@ -1,0 +1,8 @@
+{
+  "watch": ["backend", ".env"],
+  "ext": "ts,js,json",
+  "ignore": ["node_modules", "dist", "coverage", "__tests__"],
+  "exec": "node backend/server.js",
+  "restartable": "rs",
+  "env": {}
+}
